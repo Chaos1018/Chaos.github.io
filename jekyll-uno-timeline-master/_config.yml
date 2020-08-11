@@ -1,0 +1,33 @@
+# Site settings
+title: Chaos1018
+description: 'И все должны мы,Неудержимо'
+url: 'http://thomas.zuehlke.family'
+baseurl: ''
+profilepic: '/images/tzuehlke.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name:Chaos1018
+  email: chaoyangranran@outlook.com
+#github_username:  Chaos1018
+  luogu_username:  Moon_Sun
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
